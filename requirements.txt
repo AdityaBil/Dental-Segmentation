@@ -1,0 +1,24 @@
+# ─── Core ML ───────────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ─── Medical image I/O ──────────────────────────────────────────────────────
+nibabel>=5.2.0        # primary NIfTI loader (works on all Python versions)
+SimpleITK>=2.3.0      # optional — preferred when available
+
+# ─── MONAI (optional DiceLoss, transforms) ──────────────────────────────────
+monai>=1.3.0
+
+# ─── Numerics & ML utilities ────────────────────────────────────────────────
+numpy>=1.26.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# ─── TorchIO (optional, for additional 3D augmentations) ────────────────────
+torchio>=0.19.0
+
+# ─── Logging / progress ─────────────────────────────────────────────────────
+tqdm>=4.66.0
+
+# ─── Dataset download (optional) ───────────────────────────────────────────
+gdown>=5.2.0
